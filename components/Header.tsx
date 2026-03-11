@@ -18,7 +18,6 @@ export default function Header() {
             height={50}
             className="h-12 w-auto"
             priority
-            quality={100}
           />
         </div>
 
