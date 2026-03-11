@@ -5,25 +5,29 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.985 0.001 0);
-  --foreground: oklch(0.2 0.02 0);
+  --background: #EEEBE8;
+  --foreground: #1A1A1A;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.2 0.02 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.2 0.02 0);
-  --primary: oklch(0.54 0.135 16.8);
+  --primary: #E05A5A;
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.65 0.13 54);
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.95 0 0);
+  --muted: #F7F5F3;
   --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.54 0.135 16.8);
+  --accent: #E05A5A;
   --accent-foreground: oklch(1 0 0);
-  --destructive: oklch(0.54 0.135 16.8);
+  --destructive: #E05A5A;
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0 0);
-  --input: oklch(0.97 0 0);
-  --ring: oklch(0.54 0.135 16.8);
+  --border: #E05A5A;
+  --input: #F7F5F3;
+  --ring: #E05A5A;
+  --navbar-coral: #E05A5A;
+  --navbar-light-bg: #F7F5F3;
+  --navbar-dark-bg: #EEEBE8;
+  --navbar-text: #1A1A1A;
   --chart-1: oklch(0.54 0.135 16.8);
   --chart-2: oklch(0.65 0.13 54);
   --chart-3: oklch(0.5 0.15 141);
@@ -76,7 +80,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
+  --font-sans: var(--font-jakarta), 'Plus Jakarta Sans', 'Geist', 'Geist Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
