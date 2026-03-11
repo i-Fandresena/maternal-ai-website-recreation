@@ -9,16 +9,16 @@ export default function Header() {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between gap-12">
         {/* Logo Section */}
-        <div className="flex items-center gap-3 flex-shrink-0">
+        <div className="flex items-center flex-shrink-0">
           <Image
             src="/images/logo.png"
             alt="MaternalAI Logo"
-            width={48}
-            height={48}
-            className="w-12 h-12"
+            width={60}
+            height={60}
+            className="h-14 w-auto"
             priority
+            quality={100}
           />
-          <span className="font-bold text-lg text-primary">MaternalAI</span>
         </div>
 
         {/* Navigation Links - Centered */}
